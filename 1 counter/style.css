@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#h1id {
+    background-color: rgba(242, 245, 255, 0.849);
+    width: 352px;
+    padding: 90px 50px;
+    text-align: center;
+    border: solid 1px;
+    margin-top: 100px;
+    font-size: 80px;
+    margin-left: 455px;
+}
+
+#incid
+{
+    background-color: rgb(14, 172, 14);
+    height: 150px;
+    width: 152px;
+    font-size: 60px;
+  }
+
+#incid, #decid, #resetid
+{
+    margin-left: -5px;
+}
+
+#decid
+{
+    background-color: rgb(255, 0, 0);
+    height: 150px;
+    width: 152px;
+    font-size: 60px;
+    
+}
+
+#resetid
+{
+    background-color: rgb(245, 230, 23);
+    height: 150px;
+    width: 152px;
+    font-size: 60px;
+}

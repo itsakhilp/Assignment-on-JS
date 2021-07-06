@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h3>vote your fav!</h3>
+    <div class="one">
+        <p id=pid>0</p>
+        <p>REACT</p>
+        <button type="button" id="btnid" onclick="inc()">Clickhere</button>
+    </div>
+    <div class="two">
+        <p id=pid2>0</p>
+        <p>ANGULAR</p>
+        <button type="button" id="btnid" onclick="inc2()">Clickhere</button>
+    </div>
+    <div class="three">
+        <p id=pid3>0</p>
+        <p>NODE</p>
+        <button type="button" id="btnid" onclick="inc3()">Clickhere</button>
+    </div>
+</body>
+
+<script>
+    function inc()
+           {
+            var inc=document.getElementById("pid").innerHTML;
+            inc++;
+            document.getElementById("pid").innerHTML = inc;
+           }
+
+           function inc2()
+           {
+            var inc=document.getElementById("pid2").innerHTML;
+            inc++;
+            document.getElementById("pid2").innerHTML = inc;
+           }
+
+           function inc3()
+           {
+            var inc=document.getElementById("pid3").innerHTML;
+            inc++;
+            document.getElementById("pid3").innerHTML = inc;
+           }
+</script>
+
+</html>

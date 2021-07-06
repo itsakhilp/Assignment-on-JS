@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 id="h1id">0</h1>
+        <button type="button" id="incid" onclick="increment()"><i class="fas fa-plus"></i></button>
+        <button type="button" id="resetid" onclick="reset()"><i class="fas fa-sync-alt"></i></button>
+        <button type="button" id="decid" onclick="decrement()"><i class="fas fa-minus"></i></button>
+    </div>
+
+    <script>
+        function increment()
+           {
+            var inc=document.getElementById("h1id").innerHTML;
+            inc++;
+            document.getElementById("h1id").innerHTML = inc;
+           }
+
+           function decrement()
+           {
+            var dec=document.getElementById("h1id").innerHTML;
+            dec--;
+            document.getElementById("h1id").innerHTML = dec;
+           }
+
+            
+           function reset()
+           {
+            var reset=document.getElementById("h1id").innerHTML=inc=0;
+           }
+
+
+        
+    </script>
+</body>
+</html>
